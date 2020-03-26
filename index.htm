@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!--*****************************************************************************
+Title: Plan-A-Move
+Use: Main page of the Moving Planner program 
+Author: Amir Sinanovic
+School/Term: SIU Carbondale, Spring 2020
+Developed: Jan 23, 2020
+Tested: Mar 15, 2020; Passed with no problems.
+******************************************************************************-->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Home</title>
+<link rel="stylesheet" href="css/themes/Moving.min.css" />
+<link rel="stylesheet" href="css/themes/jquery.mobile.icons.min.css" />
+<link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile.structure-1.4.5.min.css" />
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+<script type="text/javascript" src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+<script src="js/application.js"></script>
+</head>
+
+<body>
+ <!-- #4 Page title added -->
+<div data-role="page" id="homePage" data-title="Home Page">
+
+	<div data-role="header">
+		<!-- #5 Page Link added, #7 Transition added -->
+		<a href="contact.htm" rel="external" data-icon="phone" data-transition="slide">Contact</a>
+		<h1>Home</h1>
+		<!-- #5 Page Link added, #7 Transition added -->
+		<a href="about.htm" rel="external" data-icon="info" data-transition="slide">About</a>
+	</div>
+
+
+	<div role="main" class="ui-content">
+		<!-- #2 Grid Widget, week 8-->
+		<div class="ui-grid-a">
+		<div class="ui-block-a">
+   <h3>
+	Welcome to Plan-A-Move!
+   </h3>
+	<p>
+	We make moving fun and easy. At Plan-A-Move we offer information, instructions, contacts, schedule, planner and more, all to make your next move as easy and smooth as possible.
+	</p>
+	<p>
+	If at any time of the moving process you have questions for us, please don’t hesitate to reach out by clicking on the “contact” icon on top left of this page.
+	To learn more about us, please click on the “about” icon on the top right. 
+	</p>
+	<p>
+	Let’s get started...
+	</p>
+		</div>
+		<div class="ui-block-b">
+	<h3>
+	How to get around...
+	</h3>
+	<p>
+	Please click on the “Planning Instructions” icon on the bottom left. From this menu, you will have access to a list of moving supplies, moving companies,
+	repairs cleaning to consider before the move, notifications page with a list of contacts that may need to be notified of the move,
+	Utilities icon will take you to a list of utility companies that will need to be notified as well as a schedule to keep you organized.
+	From the main menu, if you click on the “Planner Page” icon, you will have access to an “Add Item” and “Display Items” page.
+	Here you will add and view planning items as we get you moving. 
+	</p>
+	<p>
+		Come say Hello at 
+		<!-- #9 URL link added -->
+		<a href="https://www.siu.edu">SIUC</a>
+	</p>
+		</div>
+	</div>
+</div>
+	<div data-role="footer" data-position="fixed" data-id="footernav" data-theme="a">
+		<div data-role="navbar">
+			<ul>
+				<!-- #5 Page Link added, #6 Pre-Fetching added, #7 Transition added -->
+				<li><a href="instructions.htm" rel="external" data-icon="carat-r" data-prefetch="true" data-transition="slide">Planning Instructions</a></li>
+				<!-- #5 Page Link added, #6 Pre-Fetching added, #7 Transition added -->
+				<li><a href="planner.htm" rel="external" data-icon="bullets" data-prefetch="true" data-transition="slide">Planner</a></li>
+			</ul>
+		</div>
+	<h4>Plan-A-Move &copy; 2020</h4>
+	</div>
+</div>
+
+</body>
+</html>

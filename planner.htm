@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!--*****************************************************************************
+Title: Plan-A-Move
+Use: Planner page of the Moving Planner program 
+Author: Amir Sinanovic
+School/Term: SIU Carbondale, Spring 2020
+Developed: Jan 23, 2020
+Tested: Mar 15, 2020; Passed with no problems.
+******************************************************************************-->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Planner</title>
+<link rel="stylesheet" href="css/themes/Moving.min.css" />
+<link rel="stylesheet" href="css/themes/jquery.mobile.icons.min.css" />
+<link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile.structure-1.4.5.min.css" />
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+<script type="text/javascript" src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+<script src="js/application.js"></script>
+</head>
+
+<body>
+
+	<div data-role="page" id="plannerPage" data-title="Planner Page">
+		
+
+	<div data-role="header">
+		<a href="index.htm" rel="external" data-icon="home" data-transition="slide" data-direction="reverse">Home</a>
+		<h1>Planner</h1>
+	</div>
+	<div role="main" class="ui-content">
+		<p>
+			Welcome to Plan-A-Move planner page!
+		</p>
+		<p>
+			Use this page as your personal planner to help ensure you don't forget anything on your next move.
+		</p>
+		<p>
+			To add an item to your list, click on the "Add Items" icon on the bottom right of this page, add a title of your
+			note and a brief description and click "Save".
+		</p>
+		<p>
+			You can view your notes by clicking on the "Display Items" icon on the bottom left of this page.
+		</p>
+
+	</div>
+	
+	
+	<div data-role="footer" data-position="fixed" data-id="footernav" data-theme="a">
+		<div data-role="navbar">
+			<ul>
+				<!-- #5 Page Link added, #7 Transition added -->
+				<li><a href="display.htm" rel="external" data-icon="bars" data-transition="slide">Display Items</a></li>
+				<li><a href="add.htm" rel="external" data-icon="plus" data-transition="slide" data-mini="true">Add Items</a></li>
+			</ul>
+		</div>
+	<h4>Plan-A-Move &copy; 2020</h4>
+	</div>
+	
+</div>
+
+</body>
+</html>

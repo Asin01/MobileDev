@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!--*****************************************************************************
+Title: Plan-A-Move
+Use: Add page of the Moving Planner program 
+Author: Amir Sinanovic
+School/Term: SIU Carbondale, Spring 2020
+Developed: Jan 23, 2020
+Tested: Mar 15, 2020; Passed with no problems.
+******************************************************************************-->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Add Item</title>
+<link rel="stylesheet" href="css/themes/Moving.min.css" />
+<link rel="stylesheet" href="css/themes/jquery.mobile.icons.min.css" />
+<link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile.structure-1.4.5.min.css" />
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+<script type="text/javascript" src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+<script src="js/application.js"></script>
+</head>
+
+<body>
+
+	<div data-role="page" id="addPage" data-title="Add Page">
+
+		<div data-role="header">
+			<h1>Add</h1></div>
+	
+		<div role="main" class="ui-content">
+			<form>
+				<div class="ui-field-contain">
+					<input id="title" type="text" placeholder="Item Title"/>
+				</div>
+				<div class="ui-field-contain">
+					<textarea id="note" placeholder="Planning Item"></textarea>
+				</div>
+				<div class="ui-grid-a">
+					<div class="ui-block-a">
+						<input id="btnNoThanks" type="submit" value="Cancel"/>
+					</div>
+					<div class="ui-block-b">
+						<input id="btnAddNote" type="button" value="Save">
+					</div>
+				</div>
+			</form>
+			</div>
+		
+		<div data-role="footer" data-position="fixed" data-id="footernav" data-theme="a">
+			<div data-role="navbar">
+				<ul>
+					<li><a href="display.htm" rel="external" data-icon="bars" data-transition="slide" data-direction="reverse">Display Items</a></li>
+					<li><a href="index.htm" rel="external" data-icon="home" data-transition="slide" data-direction="reverse">Home</a></li>
+				</ul>
+			</div>
+		<h4>Plan-A-Move &copy; 2020</h4>
+		</div>
+		
+	</div>
+
+</body>
+</html>

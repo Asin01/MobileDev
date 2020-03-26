@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!--*****************************************************************************
+Title: Plan-A-Move
+Use: Notifications page of the Moving Planner program 
+Author: Amir Sinanovic
+School/Term: SIU Carbondale, Spring 2020
+Developed: Jan 23, 2020
+Tested: Mar 15, 2020; Passed with no problems.
+******************************************************************************-->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Notifications</title>
+<link rel="stylesheet" href="css/themes/Moving.min.css" />
+<link rel="stylesheet" href="css/themes/jquery.mobile.icons.min.css" />
+<link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile.structure-1.4.5.min.css" />
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+<script type="text/javascript" src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+<script src="js/application.js"></script>
+</head>
+
+<body>
+
+	<div data-role="page" id="notificationsPage" data-title="Notifications Page">
+
+	<div data-role="header">
+		<a href="index.htm" rel="external" data-icon="home" data-transition="slide" data-direction="reverse">Home</a>
+		<h1>Notifications</h1></div>
+
+	<div role="main" class="ui-content">
+		<div data-role="tabs">
+			<!--#4 week 8 Tabs Widget-->
+			<div data-role="navbar">
+			<ul>
+				<li><a href="#tab1">Personal</a></li>
+				<li><a href="#tab2">Business</a></li>
+			</ul>
+			</div>
+			<div id="tab1">
+				<ul data-role="listview" data-inset="true">
+					<li>Family</li>
+					<li>The Post Office</li>
+					<li>The IRS</li>
+					<li>Credit card companies</li>
+					<li>Banks</li>
+					<li>Utility Companies</li>
+					<li>Home, Car, renters insurance</li>
+					<li>Health Insurance</li>
+					<li>Your doctor</li>
+					<li>Phone, cable, and internet company</li>
+					</ul>
+			</div>
+
+			<div id="tab2">
+					<ul data-role="listview" data-inset="true">
+						<li>Your Employer</li>
+						</ul>
+				</div>
+			</div>
+	</div>
+	
+	<div data-role="footer" data-position="fixed" data-id="footernav" data-theme="a">
+		<div data-role="navbar">
+			<ul>
+				<li><a href="" data-rel="back" rel="external" data-icon="back" data-transition="slide" data-direction="reverse">Back</a></li>
+				<!-- #5 Page Link added, #7 Transition added -->
+				<li><a href="utilities.htm" rel="external" data-icon="arrow-u-r" data-transition="slide">Utilities</a></li>
+			</ul>
+		</div>
+	<h4>Plan-A-Move &copy; 2020</h4>
+	</div>
+	
+</div>
+
+</body>
+</html>
